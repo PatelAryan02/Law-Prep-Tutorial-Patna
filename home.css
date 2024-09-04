@@ -1,0 +1,532 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar img{
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 120px;
+    /* padding-left: 50px; */
+}
+.navitems{
+    padding-top: 60px;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+.navitems li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 25px;
+    color: black;
+}
+.navitems li:hover{
+    color: #f1c431;
+    cursor: pointer;
+}
+.navitems li a{
+    color: black;
+}
+.navitems li a:hover{
+    color: #f1c431;
+    cursor: pointer;
+}
+/* Main Picture */
+.toppers img{
+    width: 100%;
+    height: auto;
+}
+.bestCoaching{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.coaching_img{
+    margin: auto;
+}
+.coaching_img img{
+    width: 550px;
+    height: auto;
+    padding-left: 70px;
+}
+.coaching_txt{
+    margin-left: 5%;
+    margin-right: 40px;
+    /* padding-left: 60px; */
+}
+.coaching_txt h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.coaching_txt p{
+    font-size: 22px;
+    text-align: justify;
+    padding-top: 40px;
+}
+/* OUR COURSES */
+.ourCourses{
+    background-color: #edeff2;
+}
+.our_course{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.courseImg img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+}
+.courseTxt{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.containerCourse{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.coursesImgs{
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.coursesImgs img{
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.coursesImgs p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.coursesImgs:hover{
+    background-color: #f2bd2e;
+    box-shadow: 0px 10px 0px 0px grey;
+    animation-delay: 2s;
+    
+}
+/* Why Law Prep Tutorial */
+.whyUs{
+    background-color: #f2bd2e;
+}
+.why{
+    text-align: center;
+    padding: 50px 0px 20px 50px;
+    font-size: 50px;
+}
+.whyImg img{
+    padding-left: 38%;
+    width: 400px;
+}
+.whyContain{
+    width: 1680px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.mainWhy{
+    background-color: white;
+    height: 420px;
+    width: 350px;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+.secImg{
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px grey;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin: 30px;
+    margin-left: 80px;
+}
+.secImg img{
+    margin: 35px;
+    height: 130px;
+}
+.secImg .whyP2{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    /* margin-right: 20px; */
+}
+.whyP{
+    font-size: 27px;
+    margin-top: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+.whyP:hover{
+    color: red;
+}
+.ourAdv_Prep img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+    padding-bottom: 30px;
+}
+.ourAdv{
+    background-color: #e9eef0;
+}
+.law_prep{
+    font-size: 45px;
+    padding-top: 70px;
+    text-align: center;
+}
+.stayAhead{
+    text-align: center;
+    /* font-weight: bold; */
+    padding-top: 30px;
+    font-size: 35px;
+}
+.teachingImgP{
+    display: flex;
+}
+.container_Law{
+    width: 1570px;
+    gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.teachingLaw{
+    flex-basis: 29%;
+    /* margin: 2%; */
+    margin-left: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    background-color: white;
+    border-radius: 15px;
+    height: 300px;
+}
+.teachingImgP{
+    padding: 20px;
+}
+.teachingImgP h4{
+    /* font-weight: bold; */
+    padding: 20px;
+    font-size: 23px;
+}
+.ulLaw ul{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    color: grey;
+}
+/* A Student's Journey */
+.stuJourney{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+}
+.journeyFlow{
+    margin-left: 18%;
+}
+.journeyFlow img{
+    height: 510px;
+    width: 1050px;
+}
+.journeyDiv img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+    padding-bottom: 10px;
+}
+/* Student Testimonial */
+.testimonial{
+    background-color: #f4c52b;
+    margin-top: 50px;
+}
+.testiTxt{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+.testiDivd img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+    padding-bottom: 10px;
+}
+.testimonialVideos{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+.TestiFrame{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: whitesmoke;
+    width: 455px;
+    height: 400px;
+    padding-left: 4px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.TestiFrame iframe{
+    height: 300px;
+    width: 450px;
+}
+.TestiFrame p{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+/* Clear All your Doubts By Faculty */
+.clearDoubt hr{
+    background-color: #f4c52b;
+    margin-top: 80px;
+    width: 90%;
+    height: 10px;
+    margin-left: 5%;
+    border: 0px;
+}
+.doubtsTxt{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.doubtDiv img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+    padding-bottom: 10px;
+}
+.OurMainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.formDivMain{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+.formMain{
+    margin-left: 5%;
+}
+.formMain form input[type=text],input[type=email],input[type=tel]{
+    width: 370px;
+    height: 65px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+.formMain form select{
+    width: 380px;
+    height: 65px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+.formMain form textarea{
+    width: 780px;
+    height: 170px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+.formInpTags img{
+    width: 390px;
+    height: 65px;
+    padding-top: 23px;
+    margin-left: 20px;
+}
+.formMain form label{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.formMain form label span{
+    color: red;
+}
+.myspan{
+    font-size: 20px;
+}
+.mycheck{
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.divBtn button{
+    margin-top: 20px;
+    border: 0px;
+    height: 65px;
+    width: 800px;
+    font-size: 30px;
+    background-color: #f1c431;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contactUs img{
+    margin-left: 150px;
+    height: 460px;
+}
+.myFaqs hr{
+    background-color: #f4c52b;
+    margin-top: 80px;
+    width: 90%;
+    height: 10px;
+    margin-left: 5%;
+    border: 0px;
+}
+.faqsTxt{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.faqsDiv img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+    padding-bottom: 10px;
+}
+/* My FAQS */
+.OurFreqQues{
+    /* margin-left: 5%; */
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.faqsInner{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    /* border-radius: 2px; */
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.faqsInner span{
+    padding-left: 500px;
+    font-size: 30px;
+}
+/* Footer */
+.footer{
+    background-color: #989898;
+}
+.footerLogo img{
+    padding-top: 60px;
+    padding-left: 40%;
+    /* background-color: white; */
+}
+.useLinks{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+.links{
+    flex-basis: 30%;
+    margin: 1%;
+    color: white;
+    font-size: 25px;
+    margin-top: 4%;
+}
+.contactUs_link{
+    margin-top: 30px;
+}
+.contactUs_link p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 19px;
+}
+.phone_link{
+    margin-top: 10px;
+}
+.phone_link a{
+    color: white;
+}
+.phone_link a:hover{
+    color: red;
+}
+.mail_link{
+    margin-top: 0px;
+}
+.mail_link a{
+    color: white;
+}
+.mail_link a:hover{
+    color: red;
+}
+.myLinksList{
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.myLinksList ul{
+    list-style: none;
+    font-size: 20px;
+}
+.myLinksList li:hover{
+    color: red;
+    cursor: pointer;
+}
+.myLinksList2{
+    padding-right: 150px;
+    margin-top: 20px;
+}
+.myLinksList2 ul{
+    font-size: 20px;
+    list-style: none;
+}
+.myLinksList2 li:hover{
+    cursor: pointer;
+    color: red;
+}
+/*  */
+.footerLast{
+    background-color: #636262;
+}
+.copyright20222{
+    padding: 30px;
+    padding-left: 5%;
+}
+.copyright20222 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.copyright20222 span small{
+    color: #f1c431;
+}

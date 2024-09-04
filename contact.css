@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar img{
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 120px;
+    /* padding-left: 50px; */
+}
+.navitems{
+    padding-top: 60px;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+.navitems li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 25px;
+    color: black;
+}
+.navitems li:hover{
+    color: #f1c431;
+    cursor: pointer;
+}
+.navitems li a{
+    color: black;
+}
+.navitems li a:hover{
+    color: #f1c431;
+    cursor: pointer;
+}
+/* Main Div */
+.toppersImg img{
+    width: 100%;
+}
+.GetInTouch{
+    width: 1680px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 0px; */
+}
+.inPerson{
+    background-color: rgb(209, 144, 25);
+    text-align: center;
+    padding-top: 30px;
+    width: 33.3%;
+    
+}
+.inPerson h2{
+    color: rgb(212, 35, 35);
+    font-size: 40px;
+    padding-top: 10px;
+}
+.inPerson p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.online{
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 33.3%; 
+    padding-top: 30px;
+}
+.online h2{
+    color: rgb(212, 35, 35);
+    font-size: 40px;
+    padding-top: 10px;
+}
+.online p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.overThePhone{
+    background-color: rgb(231, 194, 10);
+    text-align: center;
+    width: 33.4%;
+    padding-top: 30px;
+}
+.overThePhone h2{
+    color: rgb(212, 35, 35);
+    font-size: 40px;
+    padding-top: 10px;
+}
+.overThePhone p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.overThePhone a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: black;
+}
+.overThePhone a:hover{
+    color: red;
+}
+.our_course{
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 50px;
+    padding-top: 50px;
+}
+.courseImg img{
+    padding-top: 20px;
+    padding-left: 37.5%;
+    width: 400px;
+}
+/* Form */
+.formMain{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 6%;
+}
+.formDivMain{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+.formMain form input[type=text],input[type=email],input[type=tel]{
+    width: 370px;
+    height: 65px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+.formMain form textarea{
+    width: 700px;
+    height: 120px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+.formMain form label{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.divBtn button{
+    margin-top: 20px;
+    border: 0px;
+    height: 70px;
+    width: 710px;
+    font-size: 30px;
+    background-color: #f1c431;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* HR */
+.myHr{
+    height: 10px;
+    background-color: #b3b3b3;
+    border: 0px;
+}
+/* Footer */
+.footer{
+    background-color: #989898;
+}
+.footerLogo img{
+    padding-top: 60px;
+    padding-left: 40%;
+    /* background-color: white; */
+}
+.useLinks{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+.links{
+    flex-basis: 30%;
+    margin: 1%;
+    color: white;
+    font-size: 25px;
+    margin-top: 4%;
+}
+.contactUs_link{
+    margin-top: 30px;
+}
+.contactUs_link p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 19px;
+}
+.phone_link{
+    margin-top: 10px;
+}
+.phone_link a{
+    color: white;
+}
+.phone_link a:hover{
+    color: red;
+}
+.mail_link{
+    margin-top: 0px;
+}
+.mail_link a{
+    color: white;
+}
+.mail_link a:hover{
+    color: red;
+}
+.myLinksList{
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.myLinksList ul{
+    list-style: none;
+    font-size: 20px;
+}
+.myLinksList li:hover{
+    color: red;
+    cursor: pointer;
+}
+.myLinksList2{
+    padding-right: 150px;
+    margin-top: 20px;
+}
+.myLinksList2 ul{
+    font-size: 20px;
+    list-style: none;
+}
+.myLinksList2 li:hover{
+    cursor: pointer;
+    color: red;
+}
+/*  */
+.footerLast{
+    background-color: #636262;
+}
+.copyright20222{
+    padding: 30px;
+    padding-left: 5%;
+}
+.copyright20222 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.copyright20222 span small{
+    color: #f1c431;
+}
